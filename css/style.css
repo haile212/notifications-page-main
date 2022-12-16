@@ -19,7 +19,7 @@ body{
     background-color: hsl(210, 60%, 98%);
     color:  hsl(219, 12%, 42%);
     font-family: 'PlusJakartaSans',sans-serif;
-    margin: 0px 50px;
+    margin: 0px 300px;
 }
 header{
     display: grid;
@@ -117,6 +117,9 @@ top: 0;
     display: inline-block;
   }
 @media (max-width:620px) {
+    body{
+    margin: 0px 50px;
+    }
     header h1{
         font-size: 24px;
     }
